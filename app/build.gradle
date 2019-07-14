@@ -20,10 +20,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    android {
-        aaptOptions.cruncherEnabled = false
-        aaptOptions.useNewCruncher = false
-    }
 }
 
 dependencies {
